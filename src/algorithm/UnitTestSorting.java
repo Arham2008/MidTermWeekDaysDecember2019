@@ -2,6 +2,8 @@ package algorithm;
 
 import org.testng.Assert;
 
+import static org.testng.Assert.*;
+
 public class UnitTestSorting {
 
     /*
@@ -19,6 +21,7 @@ public class UnitTestSorting {
             Assert.assertEquals(sortedArray, unSortedArray, "Array is not Sorted");
         }catch(Exception ex){
             ex.getMessage();
+
         }
 
         //Now implement Unit test for rest of the soring algorithm...................below
@@ -29,3 +32,10 @@ public class UnitTestSorting {
 
     }
 }
+
+
+
+
+
+
+

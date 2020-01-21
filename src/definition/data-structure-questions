@@ -1,39 +1,121 @@
 Please answer the below Data Structure Questions:
+AKBAR MUNEER
 
-why do we need data structure?
-A.
+ Q.why do we need data structure?A.
+ A.The use of a appropriate data structure enables a computer system to perform its task more efficiently ,affecting the ability to store and retrieve data from anywhere in its memory.
+
+Q.What are the various operations that can be performed on different Data Structures?
+A.Possible functions on the regional data structures:traversal,enrollment,deletion,search,sorting,and integration.
+
+Q.List out the areas in which data structures are applied extensively?
+A.Following are the list of data structure are applied:
+- Compiler Design
+- Operating System
+-Database Management System
+-Statistical analysis package
+-Numerical Analysis
+
+Q.what is an Array?
+A.Array. An array is data structure that contains a group of elements.Typically these element are all of the same data type, such as an integer or string.
+
+Q.what is the difference between the Array and ArrayList?
+A.A list is a different kind of data structure from an Array.The biggest difference is in idea of direct access Vs sequential access. Array allow both;
+ direct and sequential access, While lists allow only sequential access.
+
+Q.what is LinkedList?
+A.Linked list are liner data structure where the elements are not stored in contiguous location and every element is separate object with a data part and address part.
+The elements are linked using pointers are address.
+
+Q.How is an Array different from Linked List?
+A.Caching is better in Array as all elements are allocated contiguous memory space. Coding is more complex than Array.No size constraint on the linked list, unlike Array.
+insertion/Deletion is faster in linked list and access is faster in Array.
+
+Q.what is queue?
+A.A queue is liner structure which follows particular order in which the operation are perform .The order is First in First out(FIFO).
+
+Q. what is stack?
+A. A stack is basic  data structure that can be logically thought of as a liner structure represented by a real physical stack or pile,
+ a structure where insertion and deletion of items take place at one called top of the stack.
+
+Q.what is FIFO and LIFO?
+A. FIFO is queue in data structure .LIFO is stack in data structure.
+
+Q.what is the order of complexity?
+A.Complexity can be constant,logarithmic,liner ,n*log(n),quadratic,cubic,exponential,etc.This is respectively the order of constant,logarithmic,
+liner and so on,number of steps, are executed to solve a given problem.
+
+Q.what is the best case to search an element from an array?
+A.Any sort os comparison will contribute 1 to count comparison. For example, the condition used terminate a loop,
+will also contribute 1 to count of comparisons each time it gets executed.
+
+Q.what is the worst case to search an element from an array?
+A.The worst case complexity is 0(n/2) (equivalent to 0 (n)) when element is in middle or not present in Array.
+The best case complexity is 0(1) when element is first or last element in the Array.
+
+Q.what is tree in data structure?
+A.The tree is a hierarchical data structure in information naturally in the form hierarchy style.Tree is the most powerful and advanced data structure.
+it in non -liner data structure compared to Arrays, linked list, stack and queue .it represents the node connected by edge.
+
+ Q.what is graph in data structure?
+ A.A graph is pictorial representation of set of object where some pairs of objects are connected by links.The interconnected objects are represented by points termed as vertices,
+ and the links that connect the vertices are call edges.
+
+Q.what is the difference between the HashTable and HashMap?
+A.There are several differences between HashMap and Hashtable in Java:Hashtable is synchronized,wheres HashMap is not.This HashMap better for non- threaded applications,
+as  un synchronized objects typically perform better than synchronized ones. Hashtable does not allow null keys or values.
+
+Q.What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+A.-RDBMS uses Array data structures
+  -Network data model uses Graph data structures
+  -Hierarchical data model uses trees data structures
+
+   Q.How HashMap works in java?
+   A.HahMap in Java works on hashing principle . it is data structure which allow us to store object and retrieves it in constant time 0(1) provided we know the key.
+   HashMap internally stored mapping in the form of map.entry object which contains both key and value object.
+
+Q.What is ArrayIndexOutOfBoundsException in java? When it occurs?
+A.This exception is thrown when the index is either negative or greater than or equal to the size of Array.
+
+ Q.What are the different ways of copying an array into another array?
+ A. - Manually
+    - Array.copy0f()
+    -System.array copy()
+    _Object.clone()
+
+Q.What is difference between an array and a linked list?
+A.An array is the data structure that contain collection os similar type data element where the linked list is considered as non-primitive data structure contain a
+collection of unordered linked elements known as nodes.
+
+ Q.What is DFS and BFS?
+ A.-DFS stands for breach First search. DFS stand for depth first search.
+   -BFS(breach first search) use queue data structure for finding the shortest path.
+   -DFS(Depth First search) uses stack data structure.
+
+Q.What is Recursion?
+A.Recursion is process of defining something in terms of itself.as its replace to Java programming .recursion is the attribute that allow a method to call itself.
+
+Q.What are linear and non linear data Structures?
+A.The main different between linear and non linear data structures is that linear data structures arrange data in sequential manner while no linear data structures arrange data
+in a hierarchical manner .creating a relationship among the data element.
+
+Q.What is Big-(O)-notation?
+A.Big 0 specially describes the worst-case scenario, and can be used to describe the execution time required or the space used(e.gin memory or on disk) by an algorithm.
 
 
-What are the various operations that can be performed on different Data Structures?
-List out the areas in which data structures are applied extensively?
-what is an Array?
-what is the difference between the Array and ArrayList?
-what is LinkedList?
-How is an Array different from Linked List?
-what is queue?
-what is stack?
-what is FIFO and LIFO?
-what is the order of complexity?
-what is the best case to search an element from an array?
-what is the worst case to search an element from an array?
-what is tree in data structure?
-what is graph in data structure?
-what is the difference between the HashTable and HashMap?
-What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
-How HashMap works in java?
-What is ArrayIndexOutOfBoundsException in java? When it occurs?
-What are the different ways of copying an array into another array?
-What is difference between an array and a linked list?
-What is DFS and BFS?
-What is Recursion?
-What are linear and non linear data Structures?
-What is Big-(O)-notation?
-Outlined different kind of sorting algorithm with time complexity?
+Q.Outlined different kind of sorting algorithm with time complexity?
+A.-The time complexity of Quick sort is 0(n log n) in the best case, 0(n log n)in the average case, and 0((n^2) in the worst case.
+  -it has the best performance  in the average case for most inputs,Quicksort is generally considered  the "fastest " sorting algorithm.
 
-Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
+
+Q.Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.
   b)In terms of Inserting element.
   c)In terms of Searching element.
   d)In terms of Removing element.
 
+ A.
+         Access              Search           insertion            Deletion
+Array      e(1)              e(n)             e(n)                 e(n)
+stack      e(n)              e(n)             e(1)                 e(1)
+Queue      e(n)              e(n)             e(1)                 e(1)
 
